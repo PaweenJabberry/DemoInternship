@@ -105,6 +105,7 @@ public class MainActivity extends AppCompatActivity implements ExampleAdapter.Ex
             case 121:
                 mAdapter.removeItem(item.getGroupId());
                 displayMessage("Item Deleted");
+                displayMessage("Item Deleteddd");
                 return true;
 
             default:
