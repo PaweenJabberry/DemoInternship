@@ -104,8 +104,7 @@ public class MainActivity extends AppCompatActivity implements ExampleAdapter.Ex
         switch (item.getItemId()) {
             case 121:
                 mAdapter.removeItem(item.getGroupId());
-                displayMessage("Item Deleted");
-                displayMessage("Item Deleteddd");
+                displayMessage("Item Deleted!!");
                 return true;
 
             default:
