@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DemoInternship</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Hello!!</string>
+    <string name="demointernship">DemoInternship</string>
+    <string name="hello_world">Hello world</string>
+    <string name="open_activity_2">Open Activity 2</string>
+    <string name="activity_2">Activity 2</string>
+    <string name="title">Title :</string>
+    <string name="message">Message :</string>
+    <string name="textview">TextView</string>
+    <string name="asdasd">asdasd</string>
+    <string name="see">see</string>
+</resources>
