@@ -1,6 +1,5 @@
 package com.example.demointernship;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
@@ -34,15 +33,12 @@ public class Activity2 extends AppCompatActivity {
             imageView = findViewById(R.id.imageView4);
             Picasso.get().load(jsonObj.getString("url")).into(imageView);
         } catch (JSONException e) {
-            //some exception handler code.
         }
 
     }
 
-
     public boolean onOptionsItemSelected(MenuItem item){
-        Intent myIntent = new Intent(getApplicationContext(), MainActivity.class);
-        startActivityForResult(myIntent, 0);
+        finish();
         return true;
     }
 
