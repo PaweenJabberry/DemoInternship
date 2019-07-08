@@ -41,7 +41,5 @@ public class Activity2 extends AppCompatActivity {
         finish();
         return true;
     }
-
-
     
 }
