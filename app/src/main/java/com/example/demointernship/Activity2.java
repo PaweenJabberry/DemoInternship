@@ -6,9 +6,7 @@ import android.view.MenuItem;
 import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.squareup.picasso.Picasso;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -41,5 +39,5 @@ public class Activity2 extends AppCompatActivity {
         finish();
         return true;
     }
-    
+
 }

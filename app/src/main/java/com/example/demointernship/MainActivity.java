@@ -11,9 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
 import org.json.JSONObject;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements ExampleAdapter.ExampleViewHolder.OnExampleListener, ExampleDialog.ExampleDialogListener {
