@@ -5,7 +5,6 @@ import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
-import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -36,7 +35,6 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
             mTextView1 = itemView.findViewById(R.id.text);
             mTextView2 = itemView.findViewById(R.id.text2);
             mCardView = itemView.findViewById(R.id.mCardView);
-//            mCardView.setOnCreateContextMenuListener(this);
             this.onExampleListener = onExampleListener;
             itemView.setOnCreateContextMenuListener(this);
             itemView.setOnClickListener(this);
@@ -92,6 +90,11 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ExampleV
 
     public void removeItem(int position) {
         mExampleList.remove(position);
+        notifyDataSetChanged();
+    }
+
+    public void addItem(ExampleItem exampleItem) {
+        mExampleList.add(0, exampleItem);
         notifyDataSetChanged();
     }
 }
